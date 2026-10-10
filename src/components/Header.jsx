@@ -22,8 +22,8 @@ export default function Header() {
             <path d="M20 32V15a6 6 0 0 1 12 0v17z" fill="var(--rojo)" />
           </svg>
           <span>
-            <b>Santa Inés</b>
-            <small>Instituto Privado · Lastenia</small>
+            <b>Instituto Privado Santa Inés</b>
+            <small>Lastenia</small>
           </span>
         </a>
 
