@@ -1,4 +1,4 @@
-import { videos } from "../data/Colegio";
+import { videos } from "../data/colegio";
 
 export default function Videos() {
   const hayVideos = videos.some((v) => v.youtubeId);

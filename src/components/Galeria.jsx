@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { galeria } from "../data/Colegio";
+import { galeria } from "../data/colegio";
 
 export default function Galeria() {
   const [abierta, setAbierta] = useState(null);

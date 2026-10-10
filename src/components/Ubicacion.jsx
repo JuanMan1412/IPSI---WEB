@@ -1,4 +1,4 @@
-import { colegio } from "../data/Colegio";
+import { colegio } from "../data/colegio";
 
 export default function Ubicacion() {
   return (

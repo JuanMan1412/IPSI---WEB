@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { colegio } from "../data/Colegio";
+import { colegio } from "../data/colegio";
 
 export default function Contacto() {
   const [form, setForm] = useState({ nombre: "", tel: "", nivel: "", hijo: "", msg: "" });

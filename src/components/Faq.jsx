@@ -1,4 +1,4 @@
-import { faqs } from "../data/Colegio";
+import { faqs } from "../data/colegio";
 
 export default function Faq() {
   return (

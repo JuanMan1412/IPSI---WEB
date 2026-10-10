@@ -1,4 +1,4 @@
-import { niveles } from "../data/Colegio";
+import { niveles } from "../data/colegio";
 
 export default function Niveles() {
   return (

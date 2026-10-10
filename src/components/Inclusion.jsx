@@ -1,4 +1,4 @@
-import { condicionesInclusion } from "../data/Colegio";
+import { condicionesInclusion } from "../data/colegio";
 
 export default function Inclusion() {
   return (
