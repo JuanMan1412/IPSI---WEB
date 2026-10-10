@@ -45,22 +45,26 @@ img { max-width: 100%; display: block; }
 
 /* Header */
 .header {
-  position: sticky; top: 0; z-index: 30; background: rgba(244, 247, 252, .9);
-  backdrop-filter: blur(10px); border-bottom: 1px solid var(--linea);
+  position: sticky; top: 0; z-index: 30; background: var(--bg);
+  border-bottom: 1px solid var(--linea);
 }
 .header__bar { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .marca { display: flex; align-items: center; gap: .7rem; text-decoration: none; }
 .marca__escudo { width: 40px; height: 40px; }
 .marca b { display: block; font-size: 1.1rem; }
 .marca small { font-size: .78rem; color: var(--tinta-suave); }
-.header__toggle { display: none; flex-direction: column; gap: 4px; background: none; border: none; cursor: pointer; padding: .5rem; }
-.header__toggle span { width: 22px; height: 2px; background: var(--tinta); }
+.header__toggle {
+  display: none; flex-direction: column; justify-content: center; align-items: center; gap: 5px;
+  background: none; border: none; cursor: pointer; width: 44px; height: 44px; flex-shrink: 0;
+}
+.header__toggle span { width: 24px; height: 2.5px; background: var(--azul-profundo); border-radius: 2px; }
 .nav { display: flex; gap: 1.5rem; align-items: center; }
 .nav a:not(.btn) { text-decoration: none; font-weight: 500; font-size: .96rem; color: var(--tinta-suave); }
 .nav a:not(.btn):hover { color: var(--tinta); }
 
 @media (max-width: 860px) {
   .header__toggle { display: flex; }
+  .marca small { display: none; }
   .nav {
     position: fixed; inset: 68px 0 auto 0; background: var(--superficie); flex-direction: column;
     align-items: flex-start; padding: 1.2rem 1.5rem; gap: 1rem; border-bottom: 1px solid var(--linea);
@@ -92,8 +96,12 @@ img { max-width: 100%; display: block; }
 .hero__video video { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 @media (max-width: 860px) {
-  .hero__grid { grid-template-columns: 1fr; }
-  .hero__video { aspect-ratio: 16/9; height: auto; width: 100%; order: -1; }
+  .hero { padding-top: 1.5rem; }
+  .hero__grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .hero__video {
+    aspect-ratio: 9/16; width: 100%; max-width: 100%; height: auto;
+    max-height: 80vh; order: -1;
+  }
 }
 
 /* Secciones genéricas */
