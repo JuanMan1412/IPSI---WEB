@@ -2,7 +2,6 @@ import { useState } from "react";
 
 const LINKS = [
   { href: "#niveles", label: "Niveles" },
-  { href: "#inclusion", label: "Inclusión" },
   { href: "#galeria", label: "Fotos" },
   { href: "#videos", label: "Videos" },
   { href: "#ubicacion", label: "Ubicación" },
@@ -16,14 +15,9 @@ export default function Header() {
     <header className="header">
       <div className="wrap header__bar">
         <a className="marca" href="#inicio" onClick={() => setAbierto(false)}>
-          <svg className="marca__escudo" width="40" height="40" viewBox="0 0 40 40" aria-hidden="true">
-            <rect width="40" height="40" rx="10" fill="var(--azul)" />
-            <path d="M8 32V19a6 6 0 0 1 12 0v13z" fill="#fff" />
-            <path d="M20 32V15a6 6 0 0 1 12 0v17z" fill="var(--rojo)" />
-          </svg>
+          <img className="marca__logo" src="/galeria/logo ipsi.jpg" alt="Instituto Privado Santa Inés" width="40" height="40" />
           <span>
             <b>Instituto Privado Santa Inés</b>
-            <small>Lastenia</small>
           </span>
         </a>
 
@@ -44,9 +38,6 @@ export default function Header() {
               {l.label}
             </a>
           ))}
-          <a className="btn btn--primario" href="#contacto" onClick={() => setAbierto(false)}>
-            Consultar
-          </a>
         </nav>
       </div>
     </header>

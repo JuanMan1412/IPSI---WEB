@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Niveles from "./components/Niveles";
-import Inclusion from "./components/Inclusion";
 import Galeria from "./components/Galeria";
 import Videos from "./components/Videos";
 import Faq from "./components/Faq";
@@ -16,7 +15,6 @@ export default function App() {
       <main>
         <Hero />
         <Niveles />
-        <Inclusion />
         <Galeria />
         <Videos />
         <Faq />

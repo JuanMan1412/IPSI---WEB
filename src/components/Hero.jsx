@@ -13,7 +13,7 @@ export default function Hero() {
             <a className="btn btn--borde" href="#niveles">Ver los niveles</a>
           </div>
           <ul className="chips">
-            <li>Nivel Inicial a Terciario</li>
+            <li>Nivel Inicial a Secundario</li>
             <li>Colegio inclusivo</li>
             <li>Banda del Río Salí, Tucumán</li>
           </ul>

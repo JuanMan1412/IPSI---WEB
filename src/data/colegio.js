@@ -13,16 +13,7 @@ export const niveles = [
   { nombre: "Nivel Inicial", descripcion: "Los primeros pasos en la escuela: jugar, explorar y aprender a convivir con otros." },
   { nombre: "Nivel Primario", descripcion: "Lectura, escritura y matemática como base, con seguimiento cercano de cada alumno." },
   { nombre: "Nivel Secundario", descripcion: "Formación para seguir estudiando o insertarse en el trabajo, acompañando hasta el egreso." },
-  { nombre: "Nivel Terciario", descripcion: "Formación superior en el instituto. Consultá qué carreras están abiertas este año." },
 ];
-
-export const condicionesInclusion = [
-  { titulo: "Autismo", texto: "Acompañamiento y estrategias adaptadas a cada alumno dentro del aula." },
-  { titulo: "Síndrome de Down", texto: "Seguimiento personalizado en conjunto con la familia." },
-  { titulo: "Discapacidades motrices", texto: "Accesibilidad y apoyo adaptado a las necesidades de cada alumno." },
-  { titulo: "TDAH", texto: "Estrategias pedagógicas pensadas para sostener la atención y el aprendizaje." },
-];
-
 // Reemplazá estas rutas por fotos reales dentro de /public/galeria/
 export const galeria = [
   { src: "/galeria/patio.jpg", alt: "Alumnos en el patio del colegio" },
