@@ -19,7 +19,7 @@ export default function App() {
         <Videos />
         <Faq />
         <Ubicacion />
-        <Contacto />
+        {/* <Contacto /> */}
       </main>
       <Footer />
     </>

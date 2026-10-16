@@ -5,7 +5,7 @@ const LINKS = [
   { href: "#galeria", label: "Fotos" },
   { href: "#videos", label: "Videos" },
   { href: "#ubicacion", label: "Ubicación" },
-  { href: "#contacto", label: "Consultas" },
+  // { href: "#contacto", label: "Consultas" },
 ];
 
 export default function Header() {
