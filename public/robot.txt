@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://institutoprivadosantaines.com.ar/sitemap.xml
