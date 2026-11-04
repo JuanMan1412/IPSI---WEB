@@ -50,8 +50,7 @@ export default function Contacto() {
                 <option value="">Elegí un nivel</option>
                 <option>Nivel Inicial</option>
                 <option>Nivel Primario</option>
-                <option>Nivel Secundario</option>
-                <option>Nivel Terciario</option>
+                <option>Nivel Secundario</option>               
               </select>
             </div>
             <div className="campo">

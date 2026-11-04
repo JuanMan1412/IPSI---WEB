@@ -31,7 +31,7 @@ export const videos = [
 ];
 
 export const faqs = [
-  { pregunta: "¿Qué niveles tiene el instituto?", respuesta: "Nivel Inicial, Primario, Secundario y Terciario. Consultanos qué carreras terciarias están disponibles este año." },
+  { pregunta: "¿Qué niveles tiene el instituto?", respuesta: "Nivel Inicial, Primario, Secundario y Terciario." },
   { pregunta: "¿Cuál es el valor de la cuota?", respuesta: "Los valores se informan por consulta directa, porque dependen del nivel. Escribinos y te respondemos." },
   { pregunta: "¿Tienen seguimiento para chicos con autismo, síndrome de Down u otras discapacidades?", respuesta: "Sí. Contamos con equipo y protocolos propios de acompañamiento personalizado. Escribinos para contarte cómo trabajamos con tu hijo o hija en particular." },
   { pregunta: "¿Puedo visitar el colegio antes de decidir?", respuesta: "Sí. Coordinamos una visita para que conozcas las instalaciones y hables con el equipo." },
